@@ -2,6 +2,22 @@ body {
     background-color: #383D58;
     color: white
     }
+    cabecalho {
+        background-color: #383D58;   
+        color: white; 
+        display: flex;
+        justify-content: space-around;
+        }
+    .cabecalho-imagem{
+     width: 20%;
+    }
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        justify-content: space-around;
+        padding: 24px o;
+        font-size: 24px;
+    }
     body{
         font-family:’Poppins’,sans-serif;
         }
